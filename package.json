@@ -4,7 +4,8 @@
   "description": "API para gerenciar pedidos das mesas de um restaurante",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "knex": "ts-node ./node_modules/knex/bin/cli.js"
   },
   "author": "André Zambroni",
   "license": "ISC",
@@ -12,7 +13,8 @@
     "api_restaurant": "file:",
     "express": "^4.19.2",
     "knex": "^3.1.0",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
