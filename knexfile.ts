@@ -9,13 +9,13 @@ export default {
       done()
     },
   },
-  useNullAsDefault: true,
+  useNullAsDefault: true, 
   migrations: {
-    extensions: "ts",
+    extensions: ["ts"], 
     directory: "./src/database/migrations",
   },
   seeds: {
-    extensions: "ts",
+    extensions: ["ts"], 
     directory: "./src/database/seeds",
   },
 }
